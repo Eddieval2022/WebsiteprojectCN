@@ -1,0 +1,88 @@
+   
+
+            
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+
+}
+
+.bkgrnd {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(138, 157, 150, 0.85),rgba(155, 155, 155, 0.85)),url(BMWDeal.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.bkgrnd1 {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(138, 157, 150, 0.85),rgba(155, 155, 155, 0.85)),url(garageint.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+p {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.bkgrnd2 {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(138, 157, 150, 0.85),rgba(155, 155, 155, 0.85)),url(stockroom1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+p {
+    font-size: 30px;
+    font-family: sans-serif;
+    justify-content: flex-start;
+}
+
+
+.navi {
+   
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 55px 0;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    
+}
+.navi ul li a {
+    text-decoration: none;
+    color:rgb(21, 68, 70);
+    font-family: montserrat, sans-serif;
+}
+
+    
+
+.main {
+    display: flex;
+    /* font-size: 70px;
+    padding: 250px; */
+    text-align: center;
+    justify-content: center;
+    }
+
+h1 {
+    font-size: 70px;
+    padding: 250px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgba(68, 68, 68, 0.817);
+}
+.navi ul li {
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 30px;
+    font-weight: 700;
+     
+}
+
+
+
+
