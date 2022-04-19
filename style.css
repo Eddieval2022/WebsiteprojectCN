@@ -3,42 +3,49 @@
             
 *{
     margin: 0;
-    padding: 0;
-    /* font-family: sans-serif; */
-
-}
+    padding: 0;  }
 
 .bkgrnd {
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(to bottom, rgba(138, 157, 150, 0.85),rgba(155, 155, 155, 0.85)),url(BMWDeal.jpeg);
+    background-image:linear-gradient(to bottom, rgba(138, 157, 150, 0.75),rgba(155, 155, 155, 0.75)),url(cover.jpg);
     background-size: cover;
     background-position: center;
-}
+    background-attachment: fixed;}
+
+
 .bkgrnd1 {
+    /* display: flex; */
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(to bottom, rgba(138, 157, 150, 0.85),rgba(155, 155, 155, 0.85)),url(garageint.jpeg);
-    background-size: cover;
+    background-image:linear-gradient(to bottom, rgba(147, 158, 154, 0.85),rgba(155, 155, 155, 0.85)),url(garageint.jpeg);
+    background-size:cover;
     background-position: center;
-}
-p {
-    font-size: 30px;
-    font-family: sans-serif;
+    background-attachment:fixed;
 }
 .bkgrnd2 {
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(to bottom, rgba(138, 157, 150, 0.85),rgba(155, 155, 155, 0.85)),url(stockroom1.jpeg);
+    background-image:linear-gradient(to bottom, rgba(147, 157, 150, 0.85),rgba(155, 155, 155, 0.95)),url(stockroom1.jpeg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
+.bkgrnd3 {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(147, 157, 150, 0.85),rgba(155, 155, 155, 0.95)),url(contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+
 p {
+    padding: 10px;
     font-size: 30px;
     font-family: sans-serif;
-    justify-content: flex-start;
-}
-
+    text-align: center;
+    font-weight: 700;
+    }
 
 .navi {
    
@@ -51,37 +58,92 @@ p {
     text-transform: uppercase;
     
 }
-.navi ul li a {
-    text-decoration: none;
-    color:rgb(21, 68, 70);
-    font-family: montserrat, sans-serif;
-}
 
-    
-
-.main {
-    display: flex;
-    /* font-size: 70px;
-    padding: 250px; */
-    text-align: center;
-    justify-content: center;
-    }
-
-h1 {
-    font-size: 70px;
-    padding: 250px;
-    font-family: montserrat, sans-serif;
-    font-weight: 700;
-    text-decoration: underline;
-    color: rgba(68, 68, 68, 0.817);
-}
 .navi ul li {
     display: inline-block;
     margin: 0 25px;
     font-size: 30px;
     font-weight: 700;
-     
+     }
+
+.navi ul li a {
+   
+    text-decoration: none;
+    color:rgb(21, 68, 70);
+    font-family: montserrat, sans-serif;}
+
+a:hover {
+    background-color: aliceblue;}
+
+.main {
+   
+    /* font-size: 70px;
+    padding: 250px; */
+    text-align: center;
 }
+
+h1 {
+    font-size: 70px;
+    padding: 60px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(76, 73, 73);
+}
+
+.flex-container { 
+    display: flex;
+    padding: 50px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    color: black;
+    flex-direction: row;
+    font-size: 35px;
+    text-align: center; 
+    justify-content: space-between;  
+}
+.box {
+    width: 400px;
+    margin: 10px;
+    
+}
+.flex-container1 { 
+    display: flex;
+    padding: 50px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    flex-direction: row;
+    font-size: 35px;
+    text-align: center; 
+    justify-content:space-between 
+}
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+.links {
+    
+    font-family: montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
